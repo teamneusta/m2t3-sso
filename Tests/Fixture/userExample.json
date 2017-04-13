@@ -1,0 +1,29 @@
+{
+    "uid": 1,
+    "username": "peter",
+    "usergroup": [
+        "1"
+    ],
+    "disable": 0,
+    "starttime": 0,
+    "endtime": 0,
+    "name": "",
+    "first_name": "",
+    "middle_name": "",
+    "last_name": "",
+    "address": "",
+    "telephone": "",
+    "fax": "",
+    "email": "",
+    "crdate": 1476469465,
+    "uc": "",
+    "title": "",
+    "zip": "",
+    "city": "",
+    "country": "",
+    "www": "",
+    "company": "",
+    "image": 0,
+    "lastlogin": 1476471194,
+    "is_online": 1476471147
+}
