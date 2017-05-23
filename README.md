@@ -6,7 +6,7 @@
 - TYPO3 > 8.2
 - team-neusta-gmbh/m2t3-elastictypo
 
-## Explaination
+## Explanation
 
 - Import Magento groups to TYPO3 groups
 - Import Magento categories to TYPO3 pages
