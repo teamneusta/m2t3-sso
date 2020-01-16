@@ -50,9 +50,10 @@ class AuthenticationService extends \TYPO3\CMS\Sv\AuthenticationService
      */
     public function authUser(array $user): int
     {
-        $ok = 0;
-        if ($this->magentoService->getUser()) {
-            $ok = 200;
+        $ok = 100;
+
+        if (!empty($this->magentoService->getUser())) {
+            $ok = 0;
         }
 
         return $ok;
