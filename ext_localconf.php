@@ -32,7 +32,7 @@ if (empty($TYPO3_CONF_VARS['EXTCONF'][$_EXTKEY]['SSO'])) {
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addService(
     $_EXTKEY,
     'auth' /* sv type */,
-    'TeamNeustaGmbH\\M2T3\\Sso\\Service\\AuthenticationService' /* sv key */,
+    \TeamNeustaGmbH\M2T3\Sso\Service\AuthenticationService::class /* sv key */,
     [
         'title'       => 'Authentication service',
         'description' => 'Authentication service for LDAP and SSO environment.',
@@ -46,6 +46,6 @@ if (empty($TYPO3_CONF_VARS['EXTCONF'][$_EXTKEY]['SSO'])) {
         'os'   => '',
         'exec' => '',
 
-        'className' => 'TeamNeustaGmbH\\M2T3\\Sso\\Service\\AuthenticationService',
+        'className' => \TeamNeustaGmbH\M2T3\Sso\Service\AuthenticationService::class,
     ]
 );
