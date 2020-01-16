@@ -16,6 +16,9 @@
     }
   ],
   "version": "1.0.0",
+  "require": {
+    "ext-json": "*"
+  },
   "autoload": {
     "psr-4": {
       "TeamNeustaGmbH\\M2T3\\Sso\\": "Classes/"
